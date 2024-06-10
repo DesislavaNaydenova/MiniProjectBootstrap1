@@ -25,7 +25,7 @@
 /*---------------------------------Heading*/
 
 header {
-    margin: 0; 
+    margin: 0;
 }
 
 .heading {
@@ -50,7 +50,7 @@ header {
     font-weight: 400;
     font-size: 46px;
     margin-top: 50px;
-    color: #fff;    
+    color: #fff;
 }
 
 .title {
@@ -70,6 +70,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -78,7 +82,7 @@ header {
 .menuitem {
     height: 120px;
     text-align: center;
-    padding: 0;    
+    padding: 0;
 }
 
 .menuitem a {
@@ -104,4 +108,11 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*---------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0,0,0,0.2);
+    height: 120px;
 }
