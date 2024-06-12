@@ -14,6 +14,15 @@
     <link type="image/png" sizes="32x32" rel="icon" href="assets/css/favicon/icons8-developer-color-32.png">
     <link type="image/png" sizes="96x96" rel="icon" href="assets/css/favicon/icons8-developer-color-96.png">
     <title>Desislava</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "qID-sVuxsjnHiX6vH",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -43,13 +52,16 @@
                                         aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem">
-                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
+                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users"
+                                        aria-hidden="true"></i><span>Interests</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
-                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
+                                        aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
-                                <a href="assets/cv/Lebenslauf 27.11.2023.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download"
+                                <a href="assets/cv/Lebenslauf 27.11.2023.pdf" target="_blank"
+                                    class="hvr-sweep-to-bottom"><i class="fa fa-download"
                                         aria-hidden="true"></i><span>Download</span></a>
                             </li>
 
@@ -68,8 +80,10 @@
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        <textarea name="projectsummary" id="projectsummary" rows="5" placeholder="Project description" required></textarea>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required />
+                        <textarea name="projectsummary" id="projectsummary" rows="5" placeholder="Project description"
+                            required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
