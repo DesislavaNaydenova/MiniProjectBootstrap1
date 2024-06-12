@@ -38,6 +38,29 @@
     background-color: #fff;
 }
 
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
 /*---------------------------------Special paddings/margins/text*/
 
 h1,
@@ -270,6 +293,7 @@ footer {
 .personal-info-item .value {
     width: 60%;
     position: relative;
+    display: inline-block;
 }
 
 /*---------------------------------Skills*/
@@ -313,7 +337,7 @@ footer {
     margin: 0;
 }
 
-.timeline-item:before {
+.timeline-item::before {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
@@ -326,7 +350,7 @@ footer {
     margin: 0;
 }
 
-.timeline-item:after {
+.timeline-item::after {
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -366,6 +390,11 @@ button[type="submit"] {
 
 .center-form textarea {
     width: 100%;
+}
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
 }
 
 /*---------------------------------Media Queries*/
